@@ -85,6 +85,13 @@ $(document).ready(function() {
 		paintCell(food.x, food.y);
 		var score_text = "Счет: " + score;
 		ctx.fillText(score_text, 5, h-5);
+
+		function scoreGrowth(score) {
+			for (var score; i <= 0; i--) {
+				game_loop - 20;
+			}
+		}
+		function scoreGrowth()
 	}
 
 	function paintCell(x, y) {
